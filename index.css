@@ -713,6 +713,14 @@ span{
     margin-top: 2rem;
     text-align: center;
   } 
+
+  .tool-card-container{
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin-top: 30px ;
+  }
+
   .card-tools{
     width: 100px;
     background-color: var(--main-color) ;
@@ -730,7 +738,6 @@ span{
   .card-content{
     padding: 8px;
   }
-
 }
 
 @media (max-width: 386px){
