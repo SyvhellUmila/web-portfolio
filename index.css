@@ -434,9 +434,9 @@ span{
 .card-tools{
   width: 200px;
   background-color: var(--main-color) ;
-  border-radius: 8px;
+  border-radius: 6%;
   overflow: hidden;
-  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.2) ;
+  box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.2) ;
   margin: 20px;
 }
 
@@ -712,6 +712,26 @@ span{
   .footer p{
     margin-top: 2rem;
     text-align: center;
+  } 
+  .card-tools{
+    width: 100px;
+    background-color: var(--main-color) ;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.2) ;
+    margin: 5px;
+  }
+
+  .card-tools img{
+    width: 100% ;
+    height: auto;
+  }
+
+  .card-content{
+    padding: 8px;
+  }
+  .tools{
+    height: 70vh;
   }
 }
 
